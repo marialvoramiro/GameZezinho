@@ -1,0 +1,54 @@
+html{
+	cursor: url(imagens/mata_ze.png) 30 30, auto;
+
+}
+
+body{
+	background-image: url(imagens/bg3.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.zezinho1{
+	width: 50px;
+	height: 50px;
+}
+
+.zezinho2{
+	width: 100px;
+	height: 100px;
+}
+
+.zezinho3{
+	width: 120px;
+	height: 120px;
+}
+
+.ladoA{
+	transform: scaleX(1);
+}
+
+.ladoB{
+	transform: scaleX(-1);
+}
+
+.painel{
+	position: absolute;
+	width: 190px;
+	padding: 10px;
+	left: 0px;
+	bottom: 0px;
+	border-top: solid 1px #fff;
+	background-color: #fff;
+	opacity: 0.7;
+}
+
+.vidas{
+	float: left;
+}
+
+.cronoemtro{
+	float: left;
+	font-size: 20px;
+	font-weight: bold;
+}
